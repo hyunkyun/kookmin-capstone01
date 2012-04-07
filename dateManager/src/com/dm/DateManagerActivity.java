@@ -8,6 +8,7 @@ import android.os.Message;
 import android.util.Log;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.Toast;
 
 import com.dm.ui.mainActivity;
 
@@ -32,5 +33,6 @@ public class DateManagerActivity extends Activity {
 			}
 		};
 		handler.sendEmptyMessageDelayed(0, 500);
+		Toast.makeText(this, "æ»≥Á«œººø∞", Toast.LENGTH_SHORT).show();
 	}
 }

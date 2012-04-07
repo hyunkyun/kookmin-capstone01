@@ -25,7 +25,7 @@ public class mainActivity extends Activity{
 
 		bar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
 		bar.setDisplayOptions(0, ActionBar.DISPLAY_SHOW_TITLE);
-
+		Toast.makeText(this, "æ»≥Á«œººø∞", Toast.LENGTH_SHORT).show();
 		bar.addTab(bar.newTab()
 				.setIcon(R.drawable.home)
 				.setTabListener(new TabListener<testActivity>(
