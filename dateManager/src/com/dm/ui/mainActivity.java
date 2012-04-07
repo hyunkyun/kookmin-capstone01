@@ -25,7 +25,7 @@ public class mainActivity extends Activity{
 
 		bar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
 		bar.setDisplayOptions(0, ActionBar.DISPLAY_SHOW_TITLE);
-		Toast.makeText(this, "안녕하세염", Toast.LENGTH_SHORT).show();
+		Toast.makeText(this, "너나가라하와이", Toast.LENGTH_SHORT).show();
 		bar.addTab(bar.newTab()
 				.setIcon(R.drawable.home)
 				.setTabListener(new TabListener<testActivity>(
@@ -49,6 +49,7 @@ public class mainActivity extends Activity{
 
 		if (savedInstanceState != null) {
 			bar.setSelectedNavigationItem(savedInstanceState.getInt("tab", 0));
+			Toast.makeText(this, "너나가라하와이2", Toast.LENGTH_SHORT).show();
 		}
 
 	}
